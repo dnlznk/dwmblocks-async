@@ -18,8 +18,9 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)                \
-    X("", "bar-audio", 0, 2)     \
-    X("", "bar-battery", 120, 0) \
+    X("", "bar-mic", 0, 4)       \
+    X("", "bar-audio", 0, 3)     \
+    X("", "bar-battery", 120, 2) \
     X("", "bar-date", 1, 1)
 
 #endif  // CONFIG_H
