@@ -17,15 +17,16 @@
 #define TRAILING_DELIMITER 0
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
-#define BLOCKS(X)                \
-    X("", "bar-keyboard", 0, 9)  \
-    X("", "bar-memory", 30, 8)   \
-    X("", "bar-cpu", 30, 7)      \
-    X("", "bar-temp", 60, 6)     \
-    X("", "bar-network", 60, 5)  \
-    X("", "bar-mic", 0, 4)       \
-    X("", "bar-audio", 0, 3)     \
-    X("", "bar-battery", 120, 2) \
+#define BLOCKS(X)                    \
+    X("", "bar-keyboard", 0, 10)     \
+    X("", "bar-memory", 30, 9)       \
+    X("", "bar-cpu", 30, 8)          \
+    X("", "bar-temp", 60, 7)         \
+    X("", "bar-network-wifi", 60, 6) \
+    X("", "bar-network-eth", 60, 5)  \
+    X("", "bar-mic", 0, 4)           \
+    X("", "bar-audio", 0, 3)         \
+    X("", "bar-battery", 120, 2)     \
     X("", "bar-date", 1, 1)
 
 #endif  // CONFIG_H
