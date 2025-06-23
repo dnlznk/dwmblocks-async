@@ -19,9 +19,9 @@
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)                    \
     X("", "bar-keyboard", 0, 10)     \
-    X("", "bar-memory", 30, 9)       \
-    X("", "bar-cpu", 30, 8)          \
-    X("", "bar-temp", 30, 7)         \
+    X("", "bar-memory", 10, 9)       \
+    X("", "bar-cpu", 5, 8)           \
+    X("", "bar-temp", 15, 7)         \
     X("", "bar-network-wifi", 60, 6) \
     X("", "bar-network-eth", 60, 5)  \
     X("", "bar-mic", 0, 4)           \
